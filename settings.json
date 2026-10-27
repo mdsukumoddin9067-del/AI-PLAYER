@@ -1,0 +1,9 @@
+{
+  "host": "168.119.78.155",
+  "port": 23957,
+  "auth": "offline",
+  "profiles": [
+    "Gemini_AI"
+  ],
+  "allow_insecure_coding": false
+}
