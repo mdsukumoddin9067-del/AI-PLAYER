@@ -1,0 +1,12 @@
+{
+  "name": "mindcraft",
+  "version": "1.0.0",
+  "description": "Mindcraft AI player using Mineflayer and Gemini",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "latest",
+    "mineflayer": "^4.20.0",
+    "mineflayer-pathfinder": "^2.4.0"
+  }
+}
