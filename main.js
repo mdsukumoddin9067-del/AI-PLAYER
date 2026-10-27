@@ -2,7 +2,6 @@ import mineflayer from 'mineflayer';
 import { pathfinder, Movements, goals } from 'mineflayer-pathfinder';
 import { GoogleGenAI } from '@google/genai';
 import fs from 'fs';
-
 const GoalFollow = goals.GoalFollow;
 
 // Load settings
