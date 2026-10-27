@@ -1,9 +1,11 @@
 import mineflayer from 'mineflayer';
-import { pathfinder, Movements, goals } from 'mineflayer-pathfinder';
+import pf from 'mineflayer-pathfinder';
+const { pathfinder, Movements, goals } = pf;
+const GoalFollow = goals.GoalFollow;
+
 import { GoogleGenAI } from '@google/genai';
 import fs from 'fs';
 
-const GoalFollow = goals.GoalFollow;
 // Load settings
 const settings = JSON.parse(fs.readFileSync('./settings.json', 'utf8'));
 
